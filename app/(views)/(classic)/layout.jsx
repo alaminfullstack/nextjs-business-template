@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from './../../@components/common/Header';
+import Header from '@/app/@components/common/Header';
+import Footer from '@/app/@components/common/Footer';
 
 
 function ClassicLayout({children}) {
@@ -7,6 +8,7 @@ function ClassicLayout({children}) {
         <div>
             <Header />
             {children}
+            <Footer/>
         </div>
     );
 }

@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <Script src="/script/theme.js" />
       <Script src="/script/bootstrap.bundle.min.js" />
       <Script src="/script/functions.js" />
     </html>
