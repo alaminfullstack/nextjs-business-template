@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 function Footer(props) {
-    const logo_image = process.env.IMAGE_PATH+'/assets/images/logo.svg';
-    const logo_white_image = process.env.IMAGE_PATH+'/assets/images/logo-light.svg';
+    const logo_image = '/images/logo.svg';
+    const logo_white_image = '/images/logo-light.svg';
 
-    const google_image = process.env.IMAGE_PATH+'/assets/images/elements/google-play.svg';
-    const playstore_image = process.env.IMAGE_PATH+'/assets/images/elements/app-store.svg';
+    const google_image = '/images/elements/google-play.svg';
+    const playstore_image = '/images/elements/app-store.svg';
 
     return (
         <footer className="pt-6">

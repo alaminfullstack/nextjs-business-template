@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 function Banner(props) {
     const router = useRouter();
-    const banner_image = process.env.IMAGE_PATH+'/assets/images/elements/hero-finance.svg';
+    const banner_image = '/images/elements/hero-finance.svg';
   return (
     <div className="row g-4 g-xxl-5">
       {/* <!-- Hero content START --> */}

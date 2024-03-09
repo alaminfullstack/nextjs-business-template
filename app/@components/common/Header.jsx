@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 function Header(props) {
-    const logo_image = process.env.IMAGE_PATH+'/Linkssets/images/logo.svg';
-    const logo_white_image = process.env.IMAGE_PATH+'/Linkssets/images/logo-light.svg';
+    const logo_image = '/images/logo.svg';
+    const logo_white_image = '/images/logo-light.svg';
 
     return (
       <>
@@ -12,7 +12,7 @@ function Header(props) {
             <nav className="navbar navbar-expand-xl">
                 <div className="container">
                     
-                    <Link className="navbar-brand me-0" href="index.html">
+                    <Link className="navbar-brand me-0" href="/">
                         <img className="light-mode-item navbar-brand-item" src={logo_image} alt="logo" />
                         <img className="dark-mode-item navbar-brand-item" src={logo_white_image} alt="logo" />
                     </Link>

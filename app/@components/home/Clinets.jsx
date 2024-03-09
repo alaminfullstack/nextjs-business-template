@@ -4,16 +4,16 @@ import Image from "next/image";
 function Clinets(props) {
   const client_images = [
     {
-      url: process.env.IMAGE_PATH + "/assets/images/client/01.svg",
+      url: "/images/client/01.svg",
     },
     {
-      url: process.env.IMAGE_PATH + "/assets/images/client/02.svg",
+      url: "/images/client/02.svg",
     },
     {
-      url: process.env.IMAGE_PATH + "/assets/images/client/03.svg",
+      url: "/images/client/03.svg",
     },
     {
-      url: process.env.IMAGE_PATH + "/assets/images/client/04.svg",
+      url: "/images/client/04.svg",
     },
   ];
 
